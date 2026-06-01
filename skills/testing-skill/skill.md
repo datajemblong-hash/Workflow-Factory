@@ -52,9 +52,9 @@ Saya membuat file `6_Skenario_Testing.md` yang berisi daftar lengkap skenario pe
    - 🔄 Sedang Diuji
    ```
 4. Buat kerangka file test dasar sesuai platform:
-   - **Web (JavaScript):** Buat folder `tests/` dan file `test_example.js` dengan kerangka Jest/Mocha
-   - **Web (Python):** Buat folder `tests/` dan file `test_example.py` dengan kerangka pytest
-   - **Android (Dart):** Buat folder `test/` dan file `widget_test.dart`
+   - **Web (JavaScript):** Buat folder `tests/` and file `test_example.js` dengan kerangka Jest/Mocha
+   - **Web (Python):** Buat folder `tests/` and file `test_example.py` dengan kerangka pytest
+   - **Android (Kotlin):** Buat file JUnit Unit Test di `app/src/test/java/com/example/myapp/ExampleUnitTest.kt` dan Instrumented UI Test (Espresso) di `app/src/androidTest/java/com/example/myapp/ExampleInstrumentedTest.kt`
    - **IoT/ESP (C++):** Buat folder `test/` dan file `test_main.cpp` dengan kerangka Unity Test
    - **Desktop:** Sesuaikan dengan bahasa yang digunakan
 5. Laporkan: "🧪 Skenario Testing berhasil dicetak! [jumlah] test case siap dieksekusi."

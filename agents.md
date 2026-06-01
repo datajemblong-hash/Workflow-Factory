@@ -13,10 +13,11 @@ Saat pengguna datang, tanyakan DUA hal ini terlebih dahulu:
 [cite_start]JANGAN langsung memicu eksekusi pembuatan dokumen setelah pengguna menjawab tahap 1[cite: 614]. Berikan pertanyaan lanjutan sesuai platform:
 * [cite_start]**Jika Hardware IoT/ESP:** Tanyakan komponen spesifik apa saja yang dibutuhkan dan apakah pengguna sudah memiliki semua alat tersebut secara fisik[cite: 614].
 * [cite_start]**Jika Web:** Tanyakan rencana pengelolaan hosting (misal: cPanel, VPS, Cloud, atau lainnya)[cite: 615].
-* [cite_start]**Jika Android/Desktop:** Tanyakan apakah aplikasi membutuhkan integrasi khusus (kamera, penyimpanan lokal, atau koneksi API)[cite: 615].
+* **Jika Android/Desktop:** Tanyakan apakah aplikasi membutuhkan integrasi hardware khusus (seperti kamera, bluetooth, GPS, penyimpanan lokal, atau sensor), API khusus, serta berapa versi Android minimum (API Level) yang ingin didukung.
 * **Untuk SEMUA platform:** Tanyakan juga:
   - Apakah proyek membutuhkan **backend/API**? (Untuk menentukan apakah skill Dokumentasi API perlu dicetak)
   - Apakah proyek membutuhkan **database**? Jika ya, jenis apa? (Untuk menentukan apakah skill Database Schema perlu dicetak)
+
 
 **3. Perumusan Konsep:**
 [cite_start]Setelah pengguna menjawab pertanyaan lanjutan, rumuskan secara detail[cite: 616]:

@@ -17,7 +17,10 @@ Gunakan saya HANYA SETELAH tahap wawancara spesifik selesai dan kamu sudah merum
 7. Buat file `4_Troubleshooting.md` dan isi dengan 3 prediksi error umum beserta solusinya.
 8. Salin file `i:\Workflow-Factory\agents-template.md` menjadi `agents.md` di root proyek, lalu sesuaikan aturan AI agar spesifik untuk proyek/platform tersebut.
 9. [cite_start]Buat file `status.md` dan isi dengan format Sprint Timeline target harian[cite: 647].
-10. [cite_start]**(Boilerplate Generator):** Jika platform proyek adalah ESP/IoT, buat folder `src/` berisi file `main.cpp` kosong dan buat file `platformio.ini` kosong[cite: 640]. [cite_start]Jika platform Web, buat file `index.html` dan `style.css` kosong[cite: 641].
+10. **(Boilerplate Generator):**
+    - Jika platform proyek adalah ESP/IoT, buat folder `src/` berisi file `main.cpp` kosong dan buat file `platformio.ini` kosong.
+    - Jika platform Web, buat file `index.html` dan `style.css` kosong.
+    - Jika platform Android, buat struktur boilerplate Kotlin: `app/src/main/java/com/example/myapp/MainActivity.kt` (class MainActivity dasar), `app/src/main/res/layout/activity_main.xml` (tampilan Hello World dasar), `app/src/main/AndroidManifest.xml` (file manifest Android), dan `build.gradle` (file gradle build).
 11. Buat direktori `skills/log-skill` dan salin isi file dari `i:\Workflow-Factory\skills\log-skill\skill.md`. Buat direktori `skills/git-skill` dan salin isi file dari `i:\Workflow-Factory\skills\git-skill\skill.md`.
 
 ### Cetak Skill Tambahan (Universal & Kondisional)
