@@ -151,16 +151,21 @@ Untuk menjalankan vibe coding dengan lancar, berikut adalah pilihan alat AI terb
 
 ---
 
-## 🔗 Lampiran B: Cara Mengarahkan AI Membaca File Skill
+## 🔗 Lampiran B: Cara Mengarahkan AI Membaca File Skill (SOP Ignore & Hemat Token)
 
-Agar AI di proyek baru mengetahui isi instruksi skill Anda, gunakan teknik berikut:
+Untuk menghemat kuota token Anda secara drastis, direktori `/skills/` sengaja dimasukkan ke dalam daftar cek **`.cursorignore`** dan **`.windsurfignore`**. Ini membuat AI "buta" terhadap folder tersebut agar tidak membacanya berulang-ulang tanpa tujuan.
 
-* **Di Cursor Editor:**
-  Ketik instruksi Anda, lalu ketik `@` diikuti nama file skill.
-  > *Contoh:* "Tolong catat progres hari ini ke LOG.md menggunakan aturan di `@skills/log-skill/skill.md`"
+Namun, Anda tetap bisa menginstruksikan AI untuk membaca dan mengeksekusi skill tertentu dengan memanggilnya secara manual (mention) di chat editor:
+
+* **Di Cursor Editor (Menggunakan `@`):**
+  Ketik simbol `@` lalu arahkan ke file skill yang ingin dipanggil.
+  > *Contoh:* "Tolong catat progres hari ini ke LOG.md menggunakan instruksi di `@skills/log-skill/skill.md`"
+* **Di Windsurf Editor (Menggunakan `#`):**
+  Ketik simbol `#` lalu arahkan ke file skill yang ingin dipanggil.
+  > *Contoh:* "Gunakan panduan pengujian di `#skills/testing-skill/skill.md` untuk menguji fungsionalitas tombol ini"
 * **Di AI Browser (ChatGPT/Claude):**
-  Salin isi file skill, paste ke chat, lalu tulis perintah Anda.
-  > *Contoh:* "Gunakan instruksi skill berikut ini: [paste isi file skill.md]. Sekarang, tolong analisis error ini: [paste error]"
+  Salin (copy) seluruh isi file `skill.md` yang Anda butuhkan, lalu tempel (paste) ke dalam chat.
+  > *Contoh:* "Gunakan instruksi skill berikut: [paste isi file skill.md]. Sekarang, catat progres hari ini ke LOG.md."
 
 ---
 

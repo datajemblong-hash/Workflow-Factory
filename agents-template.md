@@ -30,3 +30,4 @@ Fokus utamamu adalah mendengarkan instruksi pengguna, memecahnya menjadi langkah
 - **Tanpa Placeholder:** Jangan menulis kode setengah jadi atau menggunakan komentar `// TODO: tambahkan nanti`. Tulis implementasi yang bekerja penuh.
 - **Deteksi Risiko:** Peringatkan pengguna jika ada keputusan desain yang bisa memicu masalah (misalnya: konsumsi daya tinggi pada IoT, celah keamanan pada Web). Gunakan panduan di `10_Security_Checklist.md`.
 - **Error Handling:** Semua kode logic krusial (seperti koneksi database, fetch API, parsing sensor) WAJIB memiliki error handling (`try-catch` atau sejenisnya).
+- **Aturan Pemanggilan Skill:** Jika kamu membutuhkan panduan spesifik (seperti cara testing atau deployment), instruksikan saya (manusia) untuk melakukan mention file tersebut menggunakan `@skills/nama-skill/skill.md`, karena direktori tersebut sengaja di-ignore di dalam `.cursorignore` dan `.windsurfignore` untuk menghemat token.

@@ -50,14 +50,50 @@ Gunakan saya HANYA SETELAH tahap wawancara spesifik selesai dan kamu sudah merum
 31. **(Universal)** Buat file `10_Security_Checklist.md` dan isi dengan checklist keamanan sesuai platform.
 32. **(Universal)** Buat file `11_Panduan_Setup.md` dan isi dengan panduan instalasi tools lokal proyek.
 33. **(Universal)** Buat file `.gitignore` sesuai platform proyek.
+34. **(Universal)** Buat file `.cursorignore` dan `.windsurfignore` di root proyek untuk mengoptimalkan kuota token. Tuliskan isi ignore berikut secara persis ke kedua file tersebut:
+    ```ini
+    # Abaikan folder skill agar AI tidak memakan token membaca panduan statis secara konstan
+    # AI hanya akan membaca skill jika Anda memanggilnya secara eksplisit (misal pakai @ di Cursor)
+    /skills/
+    README.md
+    TUTORIAL.md
+    status.md
+    agents-template.md
+
+    # Abaikan file grafis & aset besar (Penyebab utama kuota cepat habis)
+    *.png
+    *.jpg
+    *.jpeg
+    *.gif
+    *.svg
+    *.pdf
+    *.zip
+    *.cdr
+    *.psd
+
+    # Abaikan file temporary dan auto-backup
+    *.BAK
+    *.tmp
+    *.log
+
+    # Abaikan file konfigurasi lokal editor yang sering berubah otomatis
+    /.vscode/
+    /.idea/
+
+    # Abaikan folder hasil build/kompilasi & pihak ketiga
+    /node_modules/
+    /build/
+    /.pio/
+    /dist/
+    ```
 
 ### Laporan Akhir
 
-34. Setelah semua eksekusi berhasil, laporkan di panel chat:
+35. Setelah semua eksekusi berhasil, laporkan di panel chat:
     ```
     🎉 Pabrik Ultimate sukses mencetak seluruh ekosistem proyek!
 
-    📄 Dokumen: README.md, PRD, Arsitektur, Troubleshooting, Deployment, Testing, Git Workflow, Security Checklist, Panduan Setup
+    📄 Dokumen: README.md, PRD, Arsitektur, Troubleshooting, Deployment, Testing, Git Workflow, Security Checklist, Panduan Setup, Ignore (.cursorignore, .windsurfignore)
     📄 Dokumen Kondisional: [Dokumentasi API ✅/⏭️] [Database Schema ✅/⏭️] [Daftar Belanja ✅/⏭️]
     🧰 Skills: log, git, review-kode, deployment, testing, git-workflow, security-audit, sprint-update, backup, env-setup, readme-generator, error-solver, prompt-helper [+dokumentasi-api] [+database-schema]
     📦 Boilerplate: [sesuai platform]
