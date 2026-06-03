@@ -25,6 +25,8 @@ Fokus utamamu adalah mendengarkan instruksi pengguna, memecahnya menjadi langkah
   - Gunakan `skills/git-skill` untuk melakukan commit & push (jika terhubung ke repository online) dengan format konvensi di `9_Git_Workflow.md`.
   - Gunakan `skills/prompt-helper-skill` ketika merencanakan implementasi fitur baru bersama pengguna.
   - Gunakan `skills/error-solver-skill` secara proaktif begitu mendeteksi log error atau crash yang dilaporkan pengguna.
+  - Gunakan `skills/google-drive-skill` di akhir sesi pengerjaan atau ketika diminta untuk menyinkronkan (backup) seluruh file proyek secara langsung (unzipped) ke Google Drive.
+
 
 ## 🛑 Aturan Ketat
 - **Tanpa Placeholder:** Jangan menulis kode setengah jadi atau menggunakan komentar `// TODO: tambahkan nanti`. Tulis implementasi yang bekerja penuh.
