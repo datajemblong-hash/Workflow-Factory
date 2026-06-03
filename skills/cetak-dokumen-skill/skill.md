@@ -39,22 +39,21 @@ Gunakan saya HANYA SETELAH tahap wawancara spesifik selesai dan kamu sudah merum
 20. **(Universal)** Buat direktori `skills/readme-generator-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\readme-generator-skill\skill.md`.
 21. **(Universal)** Buat direktori `skills/error-solver-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\error-solver-skill\skill.md`.
 22. **(Universal)** Buat direktori `skills/prompt-helper-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\prompt-helper-skill\skill.md`.
-23. **(Universal)** Buat direktori `skills/google-drive-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\google-drive-skill\skill.md`.
-24. **(Kondisional)** **Jika proyek memiliki backend/API**, buat direktori `skills/dokumentasi-api-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\dokumentasi-api-skill\skill.md`. **Jika tidak, lewati langkah ini.**
-25. **(Kondisional)** **Jika proyek membutuhkan database**, buat direktori `skills/database-schema-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\database-schema-skill\skill.md`. **Jika tidak, lewati langkah ini.**
+23. **(Kondisional)** **Jika proyek memiliki backend/API**, buat direktori `skills/dokumentasi-api-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\dokumentasi-api-skill\skill.md`. **Jika tidak, lewati langkah ini.**
+24. **(Kondisional)** **Jika proyek membutuhkan database**, buat direktori `skills/database-schema-skill/` dan salin isi file dari `i:\Workflow-Factory\skills\database-schema-skill\skill.md`. **Jika tidak, lewati langkah ini.**
 
 ### Cetak Dokumen & File Tambahan
 
-26. **(Universal)** Buat file `README.md` utama di root proyek berdasarkan input PRD (gunakan `readme-generator-skill` sebagai referensi).
-27. **(Universal)** Buat file `5_Panduan_Deployment.md` dan isi dengan panduan deployment step-by-step sesuai platform proyek.
-28. **(Universal)** Buat file `6_Skenario_Testing.md` dan isi dengan daftar test case berdasarkan fitur di PRD.
-29. **(Kondisional)** **Jika proyek memiliki backend/API**, buat file `7_Dokumentasi_API.md` dan isi dengan dokumentasi endpoint API. **Jika tidak, lewati.**
-30. **(Kondisional)** **Jika proyek membutuhkan database**, buat file `8_Database_Schema.md` dan isi dengan rancangan skema database. **Jika tidak, lewati.**
-31. **(Universal)** Buat file `9_Git_Workflow.md` dan isi dengan panduan branching, konvensi commit, dan alur PR.
-32. **(Universal)** Buat file `10_Security_Checklist.md` dan isi dengan checklist keamanan sesuai platform.
-33. **(Universal)** Buat file `11_Panduan_Setup.md` dan isi dengan panduan instalasi tools lokal proyek.
-34. **(Universal)** Buat file `.gitignore` sesuai platform proyek.
-35. **(Universal)** Buat file `.cursorignore` dan `.windsurfignore` di root proyek untuk mengoptimalkan kuota token. Tuliskan isi ignore berikut secara persis ke kedua file tersebut:
+25. **(Universal)** Buat file `README.md` utama di root proyek berdasarkan input PRD (gunakan `readme-generator-skill` sebagai referensi).
+26. **(Universal)** Buat file `5_Panduan_Deployment.md` dan isi dengan panduan deployment step-by-step sesuai platform proyek.
+27. **(Universal)** Buat file `6_Skenario_Testing.md` dan isi dengan daftar test case berdasarkan fitur di PRD.
+28. **(Kondisional)** **Jika proyek memiliki backend/API**, buat file `7_Dokumentasi_API.md` dan isi dengan dokumentasi endpoint API. **Jika tidak, lewati.**
+29. **(Kondisional)** **Jika proyek membutuhkan database**, buat file `8_Database_Schema.md` dan isi dengan rancangan skema database. **Jika tidak, lewati.**
+30. **(Universal)** Buat file `9_Git_Workflow.md` dan isi dengan panduan branching, konvensi commit, dan alur PR.
+31. **(Universal)** Buat file `10_Security_Checklist.md` dan isi dengan checklist keamanan sesuai platform.
+32. **(Universal)** Buat file `11_Panduan_Setup.md` dan isi dengan panduan instalasi tools lokal proyek.
+33. **(Universal)** Buat file `.gitignore` sesuai platform proyek.
+34. **(Universal)** Buat file `.cursorignore` dan `.windsurfignore` di root proyek untuk mengoptimalkan kuota token. Tuliskan isi ignore berikut secara persis ke kedua file tersebut:
     ```ini
     # Abaikan folder skill agar AI tidak memakan token membaca panduan statis secara konstan
     # AI hanya akan membaca skill jika Anda memanggilnya secara eksplisit (misal pakai @ di Cursor)
@@ -93,13 +92,13 @@ Gunakan saya HANYA SETELAH tahap wawancara spesifik selesai dan kamu sudah merum
 
 ### Laporan Akhir
 
-36. Setelah semua eksekusi berhasil, laporkan di panel chat:
+35. Setelah semua eksekusi berhasil, laporkan di panel chat:
     ```
     🎉 Pabrik Ultimate sukses mencetak seluruh ekosistem proyek!
 
     📄 Dokumen: README.md, PRD, Arsitektur, Troubleshooting, Deployment, Testing, Git Workflow, Security Checklist, Panduan Setup, Ignore (.cursorignore, .windsurfignore)
     📄 Dokumen Kondisional: [Dokumentasi API ✅/⏭️] [Database Schema ✅/⏭️] [Daftar Belanja ✅/⏭️]
-    🧰 Skills: log, git, review-kode, deployment, testing, git-workflow, security-audit, sprint-update, backup, env-setup, readme-generator, error-solver, prompt-helper, google-drive [+dokumentasi-api] [+database-schema]
+    🧰 Skills: log, git, review-kode, deployment, testing, git-workflow, security-audit, sprint-update, backup, env-setup, readme-generator, error-solver, prompt-helper [+dokumentasi-api] [+database-schema]
     📦 Boilerplate: [sesuai platform]
 
     Proyek 100% siap dikerjakan!

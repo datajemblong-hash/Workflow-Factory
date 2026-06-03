@@ -1,6 +1,0 @@
-# Ignore generated projects
-/android-iot-controller/
-
-# Ignore local editor configurations
-/.vscode/
-/.idea/

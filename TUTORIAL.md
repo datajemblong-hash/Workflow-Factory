@@ -86,8 +86,6 @@ Setelah satu fitur berhasil berjalan tanpa error:
   > "Gunakan skills/sprint-update-skill untuk menandai tugas X selesai di status.md."
 - Simpan perubahan ke Git:
   > "Gunakan skills/git-skill untuk commit perubahan kita ke lokal."
-- Cadangkan proyek ke Google Drive (Tanpa Zip):
-  > "Gunakan skills/google-drive-skill untuk mencadangkan proyek ini ke Google Drive."
 
 ### 6. Menghadapi Error (Gunakan Error Solver)
 Jika program Anda tiba-tiba crash atau tidak berfungsi:
@@ -129,7 +127,6 @@ Berikut adalah rincian fungsionalitas seluruh skill bawaan proyek baru Anda bese
 * **`git-workflow-skill`**: Menyusun panduan branching Git (`9_Git_Workflow.md`) dan menyiapkan filter berkas sampah `.gitignore`.
 * **`git-skill`**: Mengeksekusi command Git nyata (add, commit, push, pull) untuk menyimpan kode ke lokal komputer dan mengunggahnya ke GitHub/GitLab.
 * **`readme-generator-skill`**: Mengompilasi PRD menjadi file `README.md` utama yang profesional untuk dipajang di halaman depan repositori Anda.
-* **`google-drive-skill`**: Menyinkronkan folder proyek secara langsung (unzipped) ke Google Drive lokal virtual Anda dengan mengabaikan file/folder sampah secara otomatis.
 
 ### ⚡ 5. Skill Kondisional (Hanya Aktif Jika Relevan)
 *Dijalankan hanya jika tipe proyek Anda memiliki fitur server-side, database, atau siap di-publish online.*

@@ -35,7 +35,7 @@ Saat pengguna datang, tanyakan DUA hal ini terlebih dahulu:
 
 **4. Eksekusi Otomatis:**
 JANGAN mengetikkan isi dokumen panjang lebar di obrolan chat ini. Langsung panggil skill `cetak-dokumen-skill` untuk mengeksekusi pembuatan folder dan file fisiknya. Skill ini akan otomatis mencetak:
-- **Selalu:** README.md, PRD, Arsitektur, Troubleshooting, Panduan Deployment, Skenario Testing, Git Workflow, Security Checklist, Panduan Setup, Boilerplate, dan 14 skill dasar.
+- **Selalu:** README.md, PRD, Arsitektur, Troubleshooting, Panduan Deployment, Skenario Testing, Git Workflow, Security Checklist, Panduan Setup, Boilerplate, dan 13 skill dasar.
 - **Kondisional:** Dokumentasi API (jika ada backend), Database Schema (jika ada database), Daftar Belanja (jika ada komponen belum dimiliki).
 
 ## 🛑 Aturan Ketat
